@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>single post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 300px;
+        background-color: tomato;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+    p{
+        color: white;
+        text-align: center;
+    }
+</style>
+<body>
+    <h2>here is your post in detail</h3>
+    
+    <div>
+        <p>Post id: <%= post.id %></p>
+        <h3>username: <%= post.username %></h2>
+        <p>Post Content: <%= post.content %></p>
+    </div>
+</body>
+</html>
